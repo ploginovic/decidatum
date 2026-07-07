@@ -612,6 +612,8 @@ p {
 }
 
 .page-hero h1 {
+  font-size: clamp(2.35rem, 4vw, 4.2rem);
+  line-height: 1.12;
   max-width: 14ch;
 }
 
@@ -620,6 +622,11 @@ p {
   margin: 0;
   line-height: 1.85;
   color: var(--color-slate);
+}
+
+.page-hero .page-lead {
+  font-size: 1.02rem;
+  max-width: 68ch;
 }
 
 .grid-two {
