@@ -356,6 +356,23 @@ p {
   min-width: 0;
 }
 
+@media (min-width: 1400px) {
+  .hero h1 {
+    font-size: clamp(2.8rem, 3.4vw, 4.65rem);
+    max-width: 14ch;
+  }
+
+  .hero .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+  }
+
+  .hero .lede,
+  .hero .lede-secondary {
+    font-size: 1.02rem;
+  }
+}
+
 .diagram-card,
 .signal-card,
 .card,
